@@ -1,0 +1,29 @@
+uuid: 34d1b050-16bd-424a-86bf-665c11032841
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_block_list
+    - node.type.article
+    - node.type.page
+id: node.article.field_block_list
+field_name: field_block_list
+entity_type: node
+bundle: article
+label: 'Block List'
+description: 'Please add your page contents there to be displayed in the form of block cards.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      page: page
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

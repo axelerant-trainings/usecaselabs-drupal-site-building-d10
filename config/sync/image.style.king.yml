@@ -1,0 +1,15 @@
+uuid: ff49a592-214b-4687-be2b-72f6019bb63b
+langcode: en
+status: true
+dependencies: {  }
+name: king
+label: 'King (800×760)'
+effects:
+  9fb5956c-eac7-435e-be10-537ece047e6c:
+    uuid: 9fb5956c-eac7-435e-be10-537ece047e6c
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 800
+      height: 760
+      anchor: center-center

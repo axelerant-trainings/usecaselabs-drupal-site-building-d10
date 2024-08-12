@@ -1,0 +1,17 @@
+uuid: 00061a56-a433-4bda-876b-0d802c29e116
+langcode: en
+status: true
+dependencies: {  }
+name: 'Medium HTML'
+format: medium_html
+weight: 0
+filters:
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: true
+    weight: -10
+    settings:
+      allowed_html: '<br> <p> <h2> <h3> <h4> <h5> <h6>'
+      filter_html_help: true
+      filter_html_nofollow: false

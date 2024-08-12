@@ -1,0 +1,31 @@
+uuid: 055b8c77-fdf4-44ab-b50a-967d900e0fd5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.frequent_ask_questions.field_answer
+    - field.field.paragraph.frequent_ask_questions.field_question
+    - paragraphs.paragraphs_type.frequent_ask_questions
+  module:
+    - text
+id: paragraph.frequent_ask_questions.default
+targetEntityType: paragraph
+bundle: frequent_ask_questions
+mode: default
+content:
+  field_answer:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_question:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

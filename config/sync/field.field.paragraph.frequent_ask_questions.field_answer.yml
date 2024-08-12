@@ -1,0 +1,24 @@
+uuid: a4be518b-db0c-4ba0-b962-390708bcd1c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_answer
+    - filter.format.full_html
+    - paragraphs.paragraphs_type.frequent_ask_questions
+  module:
+    - text
+id: paragraph.frequent_ask_questions.field_answer
+field_name: field_answer
+entity_type: paragraph
+bundle: frequent_ask_questions
+label: Answer
+description: 'Please enter your answer here.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text_long

@@ -1,0 +1,10 @@
+uuid: c42f3958-04a2-4aa3-bc9f-70e96ac77d60
+langcode: en
+status: true
+dependencies: {  }
+id: frequent_ask_questions
+label: 'Frequent Ask Questions'
+icon_uuid: null
+icon_default: null
+description: 'This is the paragraph to add frequently asked questions.'
+behavior_plugins: {  }

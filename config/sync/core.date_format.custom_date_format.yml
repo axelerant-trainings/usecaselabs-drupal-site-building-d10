@@ -1,0 +1,8 @@
+uuid: 3b0fccb9-03cb-4f76-b165-d4f3c2989ba8
+langcode: en
+status: true
+dependencies: {  }
+id: custom_date_format
+label: 'Custom Date Format'
+locked: false
+pattern: 'd/m/Y - h:i a'

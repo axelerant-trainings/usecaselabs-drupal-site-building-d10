@@ -4,8 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_date
     - node.type.page
   module:
+    - datetime
     - path
     - text
 _core:
@@ -28,6 +30,12 @@ content:
   created:
     type: datetime_timestamp
     weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_date:
+    type: datetime_default
+    weight: 121
     region: content
     settings: {  }
     third_party_settings: {  }

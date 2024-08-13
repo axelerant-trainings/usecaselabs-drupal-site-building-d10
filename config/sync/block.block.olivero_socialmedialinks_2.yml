@@ -1,0 +1,170 @@
+uuid: de8bb13b-4433-4559-8ceb-5211fc3a27f3
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_media_links
+    - system
+  theme:
+    - olivero
+id: olivero_socialmedialinks_2
+theme: olivero
+region: footer_bottom
+weight: 0
+provider: null
+plugin: social_media_links_block
+settings:
+  id: social_media_links_block
+  label: 'Social Media Links'
+  label_display: visible
+  provider: social_media_links
+  platforms:
+    goodreads:
+      value: ''
+      description: ''
+      weight: '-10'
+    contact:
+      value: ''
+      description: ''
+      weight: '-9'
+    googleplus:
+      value: ''
+      description: ''
+      weight: '-8'
+    pinterest:
+      value: ''
+      description: ''
+      weight: '-7'
+    bitbucket:
+      value: ''
+      description: ''
+      weight: '-6'
+    github:
+      value: ''
+      description: ''
+      weight: '-5'
+    amazon:
+      value: ''
+      description: ''
+      weight: '-4'
+    email:
+      value: ''
+      description: ''
+      weight: '-3'
+    whatsapp:
+      value: ''
+      description: ''
+      weight: '-2'
+    patreon:
+      value: ''
+      description: ''
+      weight: '-1'
+    telegram:
+      value: ''
+      description: ''
+      weight: '0'
+    slideshare:
+      value: ''
+      description: ''
+      weight: '1'
+    behance:
+      value: ''
+      description: ''
+      weight: '2'
+    website:
+      value: ''
+      description: ''
+      weight: '3'
+    vkontakte:
+      value: ''
+      description: ''
+      weight: '4'
+    mastodon:
+      value: ''
+      description: ''
+      weight: '5'
+    youtube:
+      value: ''
+      description: ''
+      weight: '6'
+    drupal:
+      value: drupal.org
+      description: Drupal
+      weight: '7'
+    twitter:
+      value: Twitter
+      description: Twitter
+      weight: '8'
+    rss:
+      value: ''
+      description: ''
+      weight: '9'
+    tiktok:
+      value: ''
+      description: ''
+      weight: '10'
+    gitlab:
+      value: ''
+      description: ''
+      weight: '11'
+    googleplay:
+      value: ''
+      description: ''
+      weight: '12'
+    linkedin:
+      value: ''
+      description: ''
+      weight: '13'
+    xing:
+      value: ''
+      description: ''
+      weight: '14'
+    flickr:
+      value: ''
+      description: ''
+      weight: '15'
+    meetup:
+      value: ''
+      description: ''
+      weight: '16'
+    instagram:
+      value: ''
+      description: ''
+      weight: '17'
+    glassdoor:
+      value: ''
+      description: ''
+      weight: '18'
+    tumblr:
+      value: ''
+      description: ''
+      weight: '19'
+    vimeo:
+      value: ''
+      description: ''
+      weight: '20'
+    facebook:
+      value: ''
+      description: ''
+      weight: '21'
+    youtube_channel:
+      value: ''
+      description: ''
+      weight: '22'
+  appearance:
+    orientation: h
+    show_name: 0
+    suggestion: ''
+  link_attributes:
+    target: '<none>'
+    rel: '<none>'
+  iconset:
+    style: 'fontawesome:2x'
+    installed_iconsets:
+      fontawesome:
+        examples: ''
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

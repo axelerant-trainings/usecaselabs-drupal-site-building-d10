@@ -1,0 +1,29 @@
+uuid: a3504976-2452-4812-9521-1589546fba2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_youtube_video
+    - media.type.youtube_videos
+    - node.type.article
+id: node.article.field_youtube_video
+field_name: field_youtube_video
+entity_type: node
+bundle: article
+label: 'Youtube Video'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      youtube_videos: youtube_videos
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

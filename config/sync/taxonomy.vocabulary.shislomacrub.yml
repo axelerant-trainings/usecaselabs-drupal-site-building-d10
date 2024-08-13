@@ -1,0 +1,9 @@
+uuid: 1d5c9bd2-2b30-4d91-be29-eabe34117829
+langcode: und
+status: true
+dependencies: {  }
+name: shislomacrub
+vid: shislomacrub
+description: 'Description of shislomacrub'
+weight: 1
+new_revision: false

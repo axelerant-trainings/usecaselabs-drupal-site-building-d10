@@ -1,0 +1,30 @@
+uuid: eae4ea85-010e-4955-8257-c5cb09f2e432
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.youtube_videos.field_media_oembed_video_1
+    - media.type.youtube_videos
+  module:
+    - media
+id: media.youtube_videos.default
+targetEntityType: media
+bundle: youtube_videos
+mode: default
+content:
+  field_media_oembed_video_1:
+    type: oembed
+    label: visually_hidden
+    settings:
+      max_width: 0
+      max_height: 0
+      loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

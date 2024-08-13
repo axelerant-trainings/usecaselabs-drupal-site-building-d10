@@ -1,0 +1,29 @@
+uuid: 00063687-b675-4f86-94f9-c8dede27f661
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_author_details
+    - node.type.page
+  module:
+    - entity_reference_revisions
+id: node.page.field_author_details
+field_name: field_author_details
+entity_type: node
+bundle: page
+label: Author
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: {  }
+    negate: 0
+    target_bundles_drag_drop:
+      author_information:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

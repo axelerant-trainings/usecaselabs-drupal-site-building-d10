@@ -1,0 +1,31 @@
+uuid: 7a4ed24b-7577-4ce6-9bfa-41f525bf418f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_frequently_asked_questions
+    - node.type.article
+    - paragraphs.paragraphs_type.frequent_ask_questions
+  module:
+    - entity_reference_revisions
+id: node.article.field_frequently_asked_questions
+field_name: field_frequently_asked_questions
+entity_type: node
+bundle: article
+label: 'Frequently Asked Questions'
+description: 'This to store frequent asked question and answers.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      frequent_ask_questions: frequent_ask_questions
+    negate: 0
+    target_bundles_drag_drop:
+      frequent_ask_questions:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

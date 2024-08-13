@@ -6,8 +6,10 @@ dependencies:
     - node.type.article
     - node.type.page
     - taxonomy.vocabulary.tags
+    - workflows.workflow.editorial
   module:
     - comment
+    - content_moderation
     - contextual
     - file
     - node
@@ -27,6 +29,7 @@ permissions:
   - 'access contextual links'
   - 'access files overview'
   - 'access toolbar'
+  - 'administer nodes'
   - 'administer url aliases'
   - 'create article content'
   - 'create page content'
@@ -42,6 +45,7 @@ permissions:
   - 'edit own page content'
   - 'edit terms in tags'
   - 'revert all revisions'
+  - 'use editorial transition create_new_draft'
   - 'view all revisions'
   - 'view own unpublished content'
   - 'view the administration theme'

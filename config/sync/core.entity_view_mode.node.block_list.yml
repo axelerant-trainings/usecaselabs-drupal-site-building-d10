@@ -1,0 +1,11 @@
+uuid: ab495da4-2858-41c0-bebb-e4e47bbe4ff7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.block_list
+label: 'Block List'
+description: ''
+targetEntityType: node
+cache: true

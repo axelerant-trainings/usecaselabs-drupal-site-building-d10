@@ -1,0 +1,28 @@
+uuid: d51f7bf3-573f-4f7e-b2f2-8deb98b2cd15
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.medium_html
+  module:
+    - ckeditor5
+format: medium_html
+editor: ckeditor5
+settings:
+  toolbar:
+    items:
+      - heading
+      - sourceEditing
+  plugins:
+    ckeditor5_heading:
+      enabled_headings:
+        - heading1
+        - heading2
+        - heading3
+        - heading4
+        - heading5
+        - heading6
+    ckeditor5_sourceEditing:
+      allowed_tags: {  }
+image_upload:
+  status: false

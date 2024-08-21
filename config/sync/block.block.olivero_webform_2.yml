@@ -1,0 +1,31 @@
+uuid: 5247b152-3183-4359-b8f4-4fc2ae45c6fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.product_enquiry
+  module:
+    - system
+    - webform
+  theme:
+    - olivero
+id: olivero_webform_2
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Product enquiry'
+  label_display: visible
+  provider: webform
+  webform_id: product_enquiry
+  default_data: ''
+  redirect: false
+  lazy: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /product-enquiry

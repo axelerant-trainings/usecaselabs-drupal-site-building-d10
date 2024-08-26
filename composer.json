@@ -21,6 +21,8 @@
         "drupal/core-project-message": "^10.3",
         "drupal/core-recommended": "^10.3",
         "drupal/social_media_links": "^2.9",
+        "drupal/token": "^1.15",
+        "drupal/token_filter": "^2.2",
         "drush/drush": "^13.0"
     },
     "conflict": {
